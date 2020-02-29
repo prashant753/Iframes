@@ -12,7 +12,7 @@ export class Navigation extends React.Component<any, any> {
                 <Switch>
                     <Route path="/" exact={true} render={path} />
                     <Route path="/login" exact={true} component={Login} />
-                    <ProtectedRoute path="/homepage" component={Home} />
+                    <ProtectedRoute path="/home" component={Home} />
                 </Switch>
             </Suspense>
         );

@@ -2,6 +2,7 @@ import React from 'react';
 import { Credentails } from '../../constants/Constant';
 
 import './login.css';
+import { Redirect } from 'react-router-dom';
 
 interface IState {
     email: string;
@@ -18,6 +19,14 @@ export class Login extends React.Component<any, IState> {
     };
 
     public render() {
+        const { from } = this.props.location;
+        if (localStorage.getItem('login') !== null) {
+          if (from) {
+            return <Redirect to={from.pathname} />;
+          } else {
+            return <Redirect to="/home" />;
+          }
+        }
         return (
             <div className="App">
                 <header className="App-header">

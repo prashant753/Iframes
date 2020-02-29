@@ -1,0 +1,23 @@
+.items-div {
+    text-align: center;
+    background-color: grey;
+    height: 30px;
+    padding: 15px;
+};
+
+.field { 
+  margin-right: 360px;
+  border-radius: 20px;
+}
+
+.user-name {
+    float: left;
+}
+
+.logout {
+    float: right;
+}
+
+.input-field {
+    border-radius: 20px;
+}
