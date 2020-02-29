@@ -21,3 +21,33 @@
 .input-field {
     border-radius: 20px;
 }
+
+.heading {
+    text-align: center;
+}
+
+.divider {
+    color: black;
+}
+
+.frame-one ,.frame-two {
+    width: 50%;
+    height: 600px;
+  }
+  
+  .frame-one {
+    background-color: lightcoral;
+  }
+  
+  .frame-two {
+    background-color: lightcyan;
+  }
+  
+  .frame-container {
+    display: flex;
+  }
+
+  .i-frame {
+      width: 100%;
+      height: 530px;
+  }
