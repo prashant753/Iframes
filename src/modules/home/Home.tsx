@@ -25,12 +25,10 @@ class Home extends Component<any, IState> {
                 <div className="frame-container">
                     <div className="frame-one">
                         <h3 className="heading">Frame 1</h3>
-                        <hr className="divider" />
                         <iframe className="i-frame" src={this.state.url1} title="frame1" />
                     </div>
                     <div className="frame-two">
                         <h3 className="heading">Frame 1</h3>
-                        <hr className="divider" />
                         <iframe className="i-frame" src={this.state.url2} title="frame2" />
                     </div>
                 </div>
