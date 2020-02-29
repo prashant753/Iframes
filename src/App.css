@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.login-input {
+  text-align: left;
+    display: inline;
+}
+
+.login-input-element {
+  margin-left: 5px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

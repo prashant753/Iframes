@@ -1,0 +1,13 @@
+.error-text {
+    color: red;
+};
+
+.login-input {
+    text-align: left;
+      display: inline;
+  }
+  
+  .login-input-element {
+    margin-left: 5px;
+  }
+  
